@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas Tradicionales - CreArte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">"
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>CreArte</h1>
+            <p class="slogan">El arte de regalar</p>
+            <p class="subtitle">Tienda Online</p>  
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <!-- Hero Banner -->
+    <section class="hero-productos">
+        <div class="container">
+            <h1>Nuestras Delicias</h1>
+            <p>Hechas con ingredientes premium y mucho amor</p>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <main class="main-productos">
+        <div class="container">
+            <!-- Filtros -->
+            <div class="filtros">
+                <button class="filtro-btn active" data-categoria="todas">Todas</button>
+                <button class="filtro-btn" data-categoria="Tortas">Tortas</button>
+                <button class="filtro-btn" data-categoria="Galletas">Galletas</button>
+                <button class="filtro-btn" data-categoria="Postres">Postres</button>
+            </div>
+
+            <!-- Grid de Productos -->
+            <div class="grid-productos">
+    <!-- Producto 1 -->
+    <article class="producto" data-categoria="Tortas" data-id="1" id="torta-limon">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta Limon.jpg" alt="Torta de Limón" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta de Limón</h3>
+            <p class="descripcion">Esponjosa, refrescante y con un glaseado que te hará agua la boca.</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 2 -->
+    <article class="producto" data-categoria="Tortas" data-id="2" id="torta-chocolate">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta de Chocolate.jpg" alt="Torta de Chocolate" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta de Chocolate</h3>
+            <p class="descripcion">Tentadora, húmeda y con un intenso sabor a cacao.</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 3 -->
+    <article class="producto" data-categoria="Tortas" data-id="3" id="torta-tres-leches">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta 3 leches.jpg" alt="Torta Tres Leches" class="producto-imagen">
+            <span class="etiqueta-nuevo">Promocion</span>
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta Tres Leches</h3>
+            <p class="descripcion">Bizcocho empapado en tres tipos de leche, suave y delicioso. ¡Un clásico irresistible!</p>
+            <div class="precio">100,00 Bs<span class="precio-anterior">120,00 Bs</span></div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 4 -->
+    <article class="producto" data-categoria="Tortas" data-id="4" id="torta-marmoleada">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta Marmoleada.jpg" alt="Torta Marmoleada" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta Marmoleada</h3>
+            <p class="descripcion">Deliciosa combinación de chocolate y vainilla en un diseño único.</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 5 -->
+    <article class="producto" data-categoria="Tortas" data-id="5" id="torta-vainilla">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta de Vainilla.jpg" alt="Torta de Vainilla" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta de Vainilla</h3>
+            <p class="descripcion"> Dulce, esponjosa y con un aroma que te transportará a la infancia.</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 6 -->
+    <article class="producto" data-categoria="Tortas" data-id="6" id="torta-red-velvet">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta Red Velvet.jpg" alt="Torta Red Velvet" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta Red Velvet</h3>
+            <p class="descripcion">Elegante, con un toque de vainilla y cocoa, cubierta con su icónico frosting.</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 7 -->
+    <article class="producto" data-categoria="Tortas" data-id="7" id="torta-humeda-chocolate">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Torta Humeda de Chocolate.jpg" alt="Torta Humeda de Chocolate" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Torta Humeda de Chocolate</h3>
+            <p class="descripcion">Deliciosa y esponjosa, con un intenso sabor a chocolate. ¡Para los más chocolateros!</p>
+            <div class="precio">100,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 8 -->
+    <article class="producto" data-categoria="Galletas" data-id="8" id="galletas-chocolate">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas de chocolate.jpg" alt="Galletas de Chocolate" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas de Chocolate</h3>
+            <p class="descripcion">Crujientes por fuera y suaves por dentro, con trozos de chocolate.</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 9 -->
+    <article class="producto" data-categoria="Galletas" data-id="9" id="galletas-vainilla">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas de Vainilla.jpg" alt="Galletas de Vainilla" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas de Vainilla</h3>
+            <p class="descripcion">Aromáticas y delicadas, con ese toque clásico que nunca pasa de moda.</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 10 -->
+    <article class="producto" data-categoria="Galletas" data-id="10" id="galletas-red-velvet">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas Red Velvet.jpg" alt="Galletas Red Velvet" class="producto-imagen">   
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas Red Velvet </h3>
+            <p class="descripcion">Elegantes, con un sabor único y un toque de cocoa, ¡tan rojas como seductoras!</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>  
+
+    <!-- Producto 11 -->
+    <article class="producto" data-categoria="Galletas" data-id="11" id="galletas-craqueladas">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas Craqueleada.jpg" alt="Galletas Craqueladas" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas Craqueladas</h3>
+            <p class="descripcion">Deliciosamente crujientes y caramelizadas, ¡para los amantes de la textura perfecta!</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 12 -->
+    <article class="producto" data-categoria="Galletas" data-id="12" id="galletas-limon">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas de limon.jpg" alt="Galletas de Limón" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas de Limón</h3>
+            <p class="descripcion">Refrescantes y cítricas, con un glaseado suave que las hace irresistibles.</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>
+
+    <!-- Producto 13 -->
+    <article class="producto" data-categoria="Galletas" data-id="13" id="galletas-chispitas">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas de Chispitas .jpg" alt="Galletas de Chispitas" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas de Chispitas</h3>
+            <p class="descripcion">Deliciosas galletas con chispas de colores. ¡Diversión en cada bocado!</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>    
+
+    <!-- Producto 14 -->
+    <article class="producto" data-categoria="Galletas" data-id="14" id="galletas-mantequilla">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Galletas de mantequilla.jpg" alt="Tradicionales de Mantequilla" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Galletas de Mantequilla</h3>
+            <p class="descripcion">Simplemente perfectas, doradas y con ese sabor a hogar que todos aman.</p>
+            <div class="precio">320,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>   
+    
+    <!-- Producto 15 -->
+    <article class="producto" data-categoria="Postres" data-id="15" id="pie-limon">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Pie Limon.jpg" alt="Pie de Limón" class="producto-imagen">
+            <span class="etiqueta-popular">Popular</span>
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Pie de Limón</h3>
+            <p class="descripcion">Refrescante y cítrico, con una base de galleta crujiente y un suave merengue.</p>
+            <div class="precio">320,58 Bs</div>
+            <button class="btn-ver">Ver detalles</button>   
+        </div>
+    </article>  
+
+    <!-- Producto 16 -->
+    <article class="producto" data-categoria="Postres" data-id="16" id="pie-parchita">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Pie Parchita.jpg" alt="Pie de Parchita" class="producto-imagen">
+            <span class="etiqueta-popular">Popular</span>
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Pie de Parchita</h3>
+            <p class="descripcion">Exquisito y tropical, con una base de galleta crujiente y un suave merengue.</p>
+            <div class="precio">320,58 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>  
+
+    <!-- Producto 17 -->
+    <article class="producto" data-categoria="Postres" data-id="17" id="cheesecake">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Cheesecake.jpg" alt="Cheesecake" class="producto-imagen">
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Cheesecake</h3>
+            <p class="descripcion">Cremoso, suave y con esa acidez perfecta. ¡Clásico, sencillo y delicioso!</p>
+            <div class="precio">374,01 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>  
+
+    <!-- Producto 18 -->
+    <article class="producto" data-categoria="Postres" data-id="18" id="brownie">
+        <div class="producto-imagen-container">
+            <img src="Imagenes/Catalago/Brownie.jpg" alt="Brownie" class="producto-imagen">
+            <span class="etiqueta-popular">Popular</span>
+            <div class="producto-hover">
+            </div>
+        </div>
+        <div class="producto-info">
+            <h3>Brownie</h3>
+            <p class="descripcion">Densos, chocolatosos y con ese toque húmedo que los hace irresistibles.</p>
+            <div class="precio">140,00 Bs</div>
+            <button class="btn-ver">Ver detalles</button>
+        </div>
+    </article>  
+</div>
+        </div>
+    </main>
+     <!-- Modal de detalles del producto -->
+    <div class="modal-detalle" id="modalDetalle">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div class="detalle-producto">
+                <div class="detalle-imagen">
+                    <img id="detalleImagen" src="" alt="">
+                </div>
+                <div class="detalle-info">
+                    <h2 id="detalleTitulo"></h2>
+                    <p id="detalleDescripcion"></p>
+                    <div class="detalle-precio" id="detallePrecio"></div>
+                    
+                    <div class="navegacion-productos">
+                        <button class="btn-navegacion" id="btnAnterior">
+                            ← Anterior
+                        </button>
+                        <button class="btn-navegacion" id="btnSiguiente">
+                            Siguiente →
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="productos-relacionados">
+                <h3>Otros productos disponibles</h3>
+                <div class="grid-relacionados" id="productosRelacionados">
+                    <!-- Se llenará dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>CreArte</h3>
+                <p>El arte de regalar</p>
+                <p>¡Endulzamos tus momentos especiales!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horarios Virtuales</h3>
+                <p>Lunes a Viernes: 9am - 6pm</p>
+                <p>Sábados: 9am - 2pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/crearte.reposteria/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.facebook.com/crearte.401926?rdid=7KWHpREi8VDM9WNt&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F1Yyhh4Rd6j%252F#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://wa.me/584245309083" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 CreArte. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/productos.js"></script>
+    <script src="search.js"></script>
+    <script src="buscador.js"></script>
+    <script src="detalles.js"></script>
+</body>
+</html>

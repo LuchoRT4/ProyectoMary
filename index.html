@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CreArte - El arte de regalar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.theme.min.css">
+    <link rel="stylesheet" href="glide-master/dist/css/glide.min.js">
+    
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>CreArte</h1>
+            <p class="slogan">El arte de regalar</p>
+            <p class="subtitle">Tienda Online</p>  
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="glide">
+    <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+            <!-- Slide 1 - Tortas Personalizadas -->
+            <li class="glide__slide">
+                <a href="productos.html" class="full-slide-link">
+                    <div class="slide-content" style="background-image: url('Imagenes/torta.jpeg');">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-text">
+                            <h2>Tortas Personalizadas</h2>
+                            <p>Diseños únicos para tus momentos</p>
+                            <span class="btn">Ver Productos</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <!-- Slide 2 - Ingredientes de Calidad -->
+            <li class="glide__slide">
+                <a href="nosotros.html" class="full-slide-link">
+                    <div class="slide-content" style="background-image: url('Imagenes/tortaa.jpeg');">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-text">
+                            <h2>Ingredientes de Calidad</h2>
+                            <p>Elaborados con los mejores productos</p>
+                            <span class="btn">Conócenos</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+            <!-- Slide 3 - Pedidos Especiales -->
+            <li class="glide__slide">
+                <a href="contacto.html" class="full-slide-link">
+                    <div class="slide-content" style="background-image: url('Imagenes/tortaaaa.jpg');">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-text">
+                            <h2>Pedidos Especiales</h2>
+                            <p>Celebra tus eventos con nosotros</p>
+                            <span class="btn">Haz tu pedido</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Flechas de navegación mejoradas -->
+    <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<" aria-label="Anterior">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">" aria-label="Siguiente">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+    
+    <!-- Indicadores/puntos mejorados -->
+    <div class="glide__bullets" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="=0" aria-label="Ir a slide 1"></button>
+        <button class="glide__bullet" data-glide-dir="=1" aria-label="Ir a slide 2"></button>
+        <button class="glide__bullet" data-glide-dir="=2" aria-label="Ir a slide 3"></button>
+    </div>
+</section>
+
+<section id="contacto" class="section">
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Información de contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Tienda Virtual</p>
+                <p><i class="fas fa-phone"></i> +58 412 1234567</p>
+                <p><i class="fas fa-envelope"></i> CreArte@gmail.com</p>
+                <div class="contact-social">
+                    <a href="https://www.instagram.com/crearte.reposteria/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/584245309083" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>CreArte</h3>
+                <p>El arte de regalar</p>
+                <p>¡Endulzamos tus momentos especiales!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horarios Virtuales</h3>
+                <p>Lunes a Viernes: 9am - 6pm</p>
+                <p>Sábados: 9am - 2pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/crearte.reposteria/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.facebook.com/crearte.401926?rdid=7KWHpREi8VDM9WNt&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F1Yyhh4Rd6j%252F#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://wa.me/584245309083" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 CreArte. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
+<script src="carousel.js"></script>
+</body>
+</html>
